@@ -1,0 +1,8 @@
+package game;
+
+public class Weapon {
+	private int x;
+	private int y;
+	private int weaponType = 0;
+	private int dmgMltplr = 2;
+}

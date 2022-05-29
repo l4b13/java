@@ -1,0 +1,16 @@
+package game;
+
+public class Weapon {
+	private int x;
+	private int y;
+	public String name;
+	private int dmgMltplr = 2;
+	public Area area;
+	public Weapon(int x, int y, String name, int dmgMltplr) {
+		this.x = x;
+		this.y = y;
+		this.name = name;
+		this.dmgMltplr = dmgMltplr;
+	}
+	
+}

@@ -1,0 +1,9 @@
+package game;
+
+public class Weapon {
+	private int x;
+	private int y;
+	public String name;
+	private int dmgMltplr = 2;
+	
+}
